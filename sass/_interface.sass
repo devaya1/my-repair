@@ -4,9 +4,15 @@
     border-radius: 2px
     text-transform: uppercase
     font-family: 'FuturaDemiC'
+    &:hover
+         cursor: pointer
     &--primary
-        background-color: $primary
         color: #fff
+        box-shadow: 0px 5px 15px rgba($primary, 0.2s)
+        transition: box-shadow 0.3s
+        background-color: $primary
+    &:hover
+            box-shadow: none
     &--outline
         border: 1px solid #ffffff
         background-color: transparent
